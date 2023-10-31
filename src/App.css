@@ -1,0 +1,68 @@
+body{
+text-align: center;
+}
+/* Style for the form container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+/* Style for the form title (centered) */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the "Submit" button */
+button[type="submit"] {
+  background-color: #4CAF50; /* Green color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Hover effect for the "Submit" button */
+button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the "Cancel" button */
+button[type="button"] {
+  background-color: #f44336; /* Red color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Hover effect for the "Cancel" button */
+button[type="button"]:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
